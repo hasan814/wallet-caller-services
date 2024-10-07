@@ -1,7 +1,21 @@
 {
+  "name": "caller-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
-    "@nestjs-plus/rabbitmq": "^1.4.4",
-    "@nestjs/schedule": "^4.1.1",
+    "amqplib": "^0.10.4",
+    "cron": "^3.1.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
     "winston": "^3.15.0"
   }
 }
