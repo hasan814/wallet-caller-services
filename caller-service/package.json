@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@nestjs-plus/rabbitmq": "^1.4.4",
+    "@nestjs/schedule": "^4.1.1",
+    "winston": "^3.15.0"
+  }
+}
