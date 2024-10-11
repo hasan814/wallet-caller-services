@@ -1,0 +1,50 @@
+[
+  {
+    "address": "0xabc123",
+    "total_profit": 1345.67,
+    "num_tokens_traded": 25,
+    "num_active_days": 15,
+    "avg_trade_volume": 300,
+    "risk_assessment": "low"
+  },
+  {
+    "address": "0xdef456",
+    "total_profit": 987.65,
+    "num_tokens_traded": 10,
+    "num_active_days": 20,
+    "avg_trade_volume": 150,
+    "risk_assessment": "medium"
+  },
+  {
+    "address": "0xghi789",
+    "total_profit": 456.78,
+    "num_tokens_traded": 8,
+    "num_active_days": 12,
+    "avg_trade_volume": 100,
+    "risk_assessment": "high"
+  },
+  {
+    "address": "0xjkl012",
+    "total_profit": 1234.56,
+    "num_tokens_traded": 30,
+    "num_active_days": 25,
+    "avg_trade_volume": 500,
+    "risk_assessment": "low"
+  },
+  {
+    "address": "0xklm345",
+    "total_profit": 789.12,
+    "num_tokens_traded": 20,
+    "num_active_days": 18,
+    "avg_trade_volume": 250,
+    "risk_assessment": "medium"
+  },
+  {
+    "address": "0xnop678",
+    "total_profit": 321.45,
+    "num_tokens_traded": 15,
+    "num_active_days": 10,
+    "avg_trade_volume": 80,
+    "risk_assessment": "high"
+  }
+]

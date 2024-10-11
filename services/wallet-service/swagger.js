@@ -15,6 +15,20 @@ const swaggerOptions = {
         url: "http://localhost:3000", // The URL where the API runs
       },
     ],
+    components: {
+      securitySchemes: {
+        bearerAuth: {
+          type: "http",
+          scheme: "bearer",
+          bearerFormat: "JWT", // Indicates that you are using JSON Web Tokens
+        },
+      },
+    },
+    security: [
+      {
+        bearerAuth: [], // Apply bearer token to all endpoints globally
+      },
+    ],
   },
   apis: ["./services/wallet-service/routes/*.js"], // Path to API docs
 };
